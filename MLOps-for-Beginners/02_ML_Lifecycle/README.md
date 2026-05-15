@@ -48,3 +48,25 @@ Common metrics:
 
 ### 6. Deployment
 Make the model available for real-world use — usually via an API.
+User sends request → API receives it → Model predicts → Response returned
+
+### 7. Monitoring
+Watch the model in production to catch problems early.
+
+Things to monitor:
+- Is accuracy dropping?
+- Is the input data changing?
+- Are there slow responses?
+
+### 8. Retraining
+Over time, real-world data changes. The model needs to be updated.
+
+Example: A fraud detection model trained in 2022 may not catch
+fraud patterns from 2025.
+
+## The Cycle
+Data → Clean → Features → Train → Evaluate → Deploy → Monitor → Retrain → (repeat)
+
+This is not a one-time process. It is a continuous loop.
+
+**Next:** [Model Deployment →](../03_Model_Deployment/README.md)
